@@ -1,0 +1,492 @@
+{
+  "e01": {
+    "image": "assets/e1-3.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "集会中的工人",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e01.webp",
+        "extractionRegion": [
+          0.04,
+          0.67,
+          0.45,
+          0.96
+        ]
+      }
+    ]
+  },
+  "e02": {
+    "image": "assets/e2-2.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "示威中的参与者",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e02.webp",
+        "extractionRegion": [
+          0.05,
+          0.15,
+          0.49,
+          0.52
+        ]
+      }
+    ]
+  },
+  "e04": {
+    "image": "assets/e4-5.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报中的劳动者",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e04.webp",
+        "extractionRegion": [
+          0.08,
+          0.69,
+          0.83,
+          0.97
+        ]
+      }
+    ]
+  },
+  "e05": {
+    "image": "assets/e5-4.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报中的呼吁者",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e05.webp",
+        "extractionRegion": [
+          0.28,
+          0.65,
+          0.68,
+          0.96
+        ]
+      }
+    ]
+  },
+  "e07": {
+    "image": "assets/e7-3.jpg",
+    "roles": [
+      {
+        "id": "worker",
+        "name": "抗争的工人",
+        "note": "画报右侧的工人形象，作为情境角色。",
+        "image": "assets/e07-role-worker.jpg",
+        "polygon": [
+          [
+            0.72,
+            0.395
+          ],
+          [
+            0.79,
+            0.4
+          ],
+          [
+            0.82,
+            0.42
+          ],
+          [
+            0.87,
+            0.43
+          ],
+          [
+            0.89,
+            0.46
+          ],
+          [
+            0.88,
+            0.51
+          ],
+          [
+            0.91,
+            0.53
+          ],
+          [
+            0.91,
+            0.6
+          ],
+          [
+            0.87,
+            0.62
+          ],
+          [
+            0.83,
+            0.59
+          ],
+          [
+            0.8,
+            0.55
+          ],
+          [
+            0.75,
+            0.53
+          ],
+          [
+            0.69,
+            0.54
+          ],
+          [
+            0.64,
+            0.56
+          ],
+          [
+            0.58,
+            0.56
+          ],
+          [
+            0.55,
+            0.53
+          ],
+          [
+            0.57,
+            0.5
+          ],
+          [
+            0.64,
+            0.48
+          ],
+          [
+            0.65,
+            0.44
+          ],
+          [
+            0.69,
+            0.43
+          ],
+          [
+            0.7,
+            0.4
+          ]
+        ]
+      },
+      {
+        "id": "mutual-aid",
+        "name": "互助者（群像）",
+        "note": "你提供的这一版本点亮多人互助场景，保留为群像。",
+        "image": "assets/e07-role-mutual-aid.jpg",
+        "polygon": [
+          [
+            0.44,
+            0.275
+          ],
+          [
+            0.48,
+            0.27
+          ],
+          [
+            0.51,
+            0.29
+          ],
+          [
+            0.52,
+            0.33
+          ],
+          [
+            0.51,
+            0.36
+          ],
+          [
+            0.54,
+            0.4
+          ],
+          [
+            0.52,
+            0.45
+          ],
+          [
+            0.48,
+            0.47
+          ],
+          [
+            0.43,
+            0.46
+          ],
+          [
+            0.4,
+            0.44
+          ],
+          [
+            0.34,
+            0.46
+          ],
+          [
+            0.28,
+            0.45
+          ],
+          [
+            0.22,
+            0.43
+          ],
+          [
+            0.21,
+            0.39
+          ],
+          [
+            0.24,
+            0.36
+          ],
+          [
+            0.3,
+            0.34
+          ],
+          [
+            0.34,
+            0.35
+          ],
+          [
+            0.39,
+            0.35
+          ],
+          [
+            0.39,
+            0.31
+          ]
+        ]
+      },
+      {
+        "id": "soldier",
+        "name": "持枪的战士",
+        "note": "画报右上方的持枪形象，作为情境角色。",
+        "image": "assets/e07-role-soldier.jpg",
+        "polygon": [
+          [
+            0.69,
+            0.16
+          ],
+          [
+            0.75,
+            0.16
+          ],
+          [
+            0.78,
+            0.18
+          ],
+          [
+            0.82,
+            0.18
+          ],
+          [
+            0.84,
+            0.19
+          ],
+          [
+            0.87,
+            0.19
+          ],
+          [
+            0.88,
+            0.24
+          ],
+          [
+            0.85,
+            0.27
+          ],
+          [
+            0.84,
+            0.3
+          ],
+          [
+            0.88,
+            0.32
+          ],
+          [
+            0.85,
+            0.35
+          ],
+          [
+            0.8,
+            0.34
+          ],
+          [
+            0.76,
+            0.35
+          ],
+          [
+            0.73,
+            0.33
+          ],
+          [
+            0.7,
+            0.33
+          ],
+          [
+            0.67,
+            0.34
+          ],
+          [
+            0.64,
+            0.33
+          ],
+          [
+            0.62,
+            0.3
+          ],
+          [
+            0.58,
+            0.3
+          ],
+          [
+            0.57,
+            0.28
+          ],
+          [
+            0.59,
+            0.27
+          ],
+          [
+            0.63,
+            0.28
+          ],
+          [
+            0.66,
+            0.27
+          ],
+          [
+            0.68,
+            0.23
+          ],
+          [
+            0.65,
+            0.22
+          ],
+          [
+            0.66,
+            0.2
+          ],
+          [
+            0.68,
+            0.2
+          ]
+        ]
+      }
+    ]
+  },
+  "e08": {
+    "image": "assets/e8-2.jpg"
+  },
+  "e16": {
+    "image": "assets/e16-6.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报右上方的人物",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e16.webp",
+        "extractionRegion": [
+          0.47,
+          0.14,
+          0.9,
+          0.49
+        ]
+      }
+    ]
+  },
+  "e19": {
+    "image": "assets/e19-2.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报左侧的人物",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e19.webp",
+        "extractionRegion": [
+          0.08,
+          0.42,
+          0.39,
+          0.91
+        ]
+      }
+    ]
+  },
+  "e24": {
+    "image": "assets/e24-4.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报中的劳动者",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e24.webp",
+        "extractionRegion": [
+          0.04,
+          0.05,
+          0.45,
+          0.82
+        ]
+      }
+    ]
+  },
+  "e26": {
+    "image": "assets/e26-7.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "行进中的参与者",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e26.webp",
+        "extractionRegion": [
+          0.37,
+          0.22,
+          0.7,
+          0.91
+        ]
+      }
+    ]
+  },
+  "e27": {
+    "image": "assets/e27-4.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报中的发言者",
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。",
+        "colorStudy": "assets/role-studies/e27.webp",
+        "extractionRegion": [
+          0.05,
+          0.09,
+          0.41,
+          0.42
+        ]
+      }
+    ]
+  },
+  "e28": {
+    "image": "assets/e28-2.jpg"
+  },
+  "e10": {
+    "image": "assets/e10-huxi-27.png",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "画报中部的持枪人物",
+        "colorStudy": "assets/role-studies/e10.webp",
+        "extractionRegion": [
+          0.44,
+          0.43,
+          0.58,
+          0.59
+        ],
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。"
+      }
+    ]
+  },
+  "e09": {
+    "image": "assets/e09-guangzhou-leaflet.jpg",
+    "roles": [
+      {
+        "id": "archive-person",
+        "name": "传单上方的人物",
+        "colorStudy": "assets/role-studies/e09.webp",
+        "extractionRegion": [
+          0.17,
+          0.01,
+          0.43,
+          0.25
+        ],
+        "note": "仅人物轮廓内彩色呈现；人物标签与服饰颜色属于情境再创作。"
+      }
+    ]
+  }
+}

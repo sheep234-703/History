@@ -1,0 +1,50 @@
+{
+  "method": "Built-in image editing, transparent-background extraction; original archive assets retained unchanged. Derivative illustrations are decorative timeline navigation, not original archival reproductions.",
+  "prompt": "Extract one important coherent group of figures with immediate props from the supplied archive. Preserve original poses, faces, print linework and ink colors. Remove surrounding paper, borders and columns to actual transparent alpha. No invented people, added text or decoration.",
+  "assets": [
+    {
+      "event": "e01",
+      "source": "assets/e1-3.jpg",
+      "derivative": "assets/timeline/e1-3.webp"
+    },
+    {
+      "event": "e02",
+      "source": "assets/e2-2.jpg",
+      "derivative": "assets/timeline/e2-2.webp"
+    },
+    {
+      "event": "e05",
+      "source": "assets/e5-4.jpg",
+      "derivative": "assets/timeline/e5-4.webp"
+    },
+    {
+      "event": "e07",
+      "source": "assets/e7-2.jpg",
+      "derivative": "assets/timeline/e7-2.webp"
+    },
+    {
+      "event": "e16",
+      "source": "assets/e16-6.jpg",
+      "derivative": "assets/timeline/e16-6.webp"
+    },
+    {
+      "event": "e19",
+      "source": "assets/e19-2.jpg",
+      "derivative": "assets/timeline/e19-2.webp"
+    },
+    {
+      "event": "e24",
+      "source": "assets/e24-4.jpg",
+      "derivative": "assets/timeline/e24-4.webp"
+    },
+    {
+      "event": "e26",
+      "source": "assets/e26-7.jpg",
+      "derivative": "assets/timeline/e26-7.webp"
+    }
+  ],
+  "nonfigurative_sources": {
+    "e08": "Original graphic newspaper fragment, clipped with CSS; no fictional character added.",
+    "e28": "Original newspaper typographic fragment, clipped with CSS; no fictional character added."
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "styleReference": "assets/e7-3.jpg",
+  "tool": "built-in image generation / image editing",
+  "generatedCount": 21,
+  "existingPairCount": 14,
+  "display": "Original scans and red-on-yellow derivatives shown side by side; originals are retained unchanged.",
+  "prompt": "Use image 1 as the edit target and image 2 only as paper and ink palette reference. Keep the original full-page composition, columns, illustrations, writing and margins. Convert white/gray paper to aged warm yellow and black strokes to vermilion red ink. No added text, panels or people; no cropping.",
+  "notice": "Color derivatives are visual recreations. Original images remain the reference for reading text, historical facts and citation."
+}

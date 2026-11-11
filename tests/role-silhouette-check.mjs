@@ -1,0 +1,10 @@
+import assert from 'node:assert/strict';import fs from 'node:fs';import vm from 'node:vm';
+const c={};vm.createContext(c);vm.runInContext(fs.readFileSync('public/role-silhouette.js','utf8')+';this.study=buildRoleStudyAlpha;this.provided=buildProvidedRoleAlpha;',c);
+const w=30,h=30,pixels=new Uint8ClampedArray(w*h*4).fill(255);const paint=(x,y,r,g,b)=>{const k=(y*w+x)*4;pixels[k]=r;pixels[k+1]=g;pixels[k+2]=b};
+for(let y=10;y<20;y++)for(let x=12;x<18;x++)paint(x,y,35,95,130);
+paint(11,15,20,20,20);paint(4,15,20,20,20);paint(25,15,35,95,130);
+const a=c.study(pixels,w,h,[.2,.2,.8,.8]);assert.ok(a[15*w+14]>0);assert.equal(a[15*w+11],255);assert.equal(a[15*w+4],0);assert.equal(a[15*w+25],0);assert.equal(a[8*w+8],0);assert.ok([...a].filter(n=>n>0).length<100,'must not fill the rectangular extraction region');
+const original=new Uint8ClampedArray(w*h*4).fill(230);for(let i=3;i<original.length;i+=4)original[i]=255;
+const reference=original.slice();reference[(15*w+14)*4]=25;reference[(15*w+14)*4+1]=85;reference[(15*w+14)*4+2]=120;
+const b=c.provided(reference,original,w,h,[.2,.2,.8,.8]);assert.ok(b[15*w+14]>0);assert.equal(b[8*w+8],0);assert.equal([...b].filter(n=>n>0).length,1);
+console.log('PASS: color follows silhouette pixels and outlines; paper, distant text and other regions remain untouched.');
