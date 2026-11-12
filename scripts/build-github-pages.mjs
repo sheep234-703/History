@@ -34,7 +34,9 @@ async function rewrite(dir) {
     else if (/\.(html|css|js|json)$/.test(entry.name)) {
       let text = await readFile(filename, 'utf8');
       // Include URLs assembled in templates, plus CSS url(/...) values.
-      text = text.replace(/(["'`])\/(?!\/)/g, (_, quote) => quote + base)
+      text = text.replace(/(["'`])\/(?=[A-Za-z0-9_$])/g, (_, quote) => quote + base)
+        // This expression builds an image URL; plain "/" separators must stay intact.
+        .replace("('/'+String(s)", "(" + JSON.stringify(base) + "+String(s)")
         .replace(/url\(\/(?!\/)/g, 'url(' + base);
       await writeFile(filename, text);
     }
